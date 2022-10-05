@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password generator</title>
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Password Generator</h1>
+        <h3 class="passwordDisplay"></h3>
+        
+        <form action="" class="form" id="form">
+            <label for="lengthNumber">Passoword Length</label>
+            <input type="number" min="1" max="50" value="15" id="pwdLength">
+            
+            <label for="uppercase">Include Uppercase</label>
+            <input type="checkbox" id="uppercase">
+            <label for="lowercase">Include Lowercase</label>
+            <input type="checkbox" id="lowercase" checked>
+            <label for="number">Include Number</label>
+            <input type="checkbox" id="number">
+            <label for="symbols">Include Symbols </label>
+            <input type="checkbox" id="symbols">
+
+            <button type="submit" id="button">Generate Passoword</button>
+
+
+        </form>
+        <p style="color: black;">Developed By <a href="https://www.linkedin.com/in/aman-gaur-769091170/" style="text-decoration: none;">Aman Gaur</a> </p>
+    </div>
+    
+    
+</body>
+</html>
